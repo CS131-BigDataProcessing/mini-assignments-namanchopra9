@@ -1,0 +1,16 @@
+  217  awk -F, -v threshold=15 '$5 > threshold {print $1}' airline_stat.csv | sort | uniq
+  218  history > a6_cmds.log
+  219  ls
+  220  cat a6_cmds.log
+  221  rm a6_cmds.log
+  222  ls
+  223  awk -F, '{print $1}' airline_stat.csv | sort | uniq
+  224  awk -F, '$5 > 10 {print $1}' airline_stat.csv | sort | uniq
+  225  awk -F, -v threshold=15 '$5 > threshold {print $1}' airline_stat.csv | sort | uniq
+  226  history > a6_cmds.log
+  227  ls
+  228  cat a6_cmds.log
+  229  awk -F, '$5 > 10 {print $1}' airline_stat.csv | sort | uniq\n
+  230  awk -F, '{print $1}' airline_stat.csv | sort | uniq
+  231  awk -F, '$5 > 10 {print $1}' airline_stat.csv | sort | uniq
+  232  awk -F, -v threshold=15 '$5 > threshold {print $1}' airline_stat.csv | sort | uniq

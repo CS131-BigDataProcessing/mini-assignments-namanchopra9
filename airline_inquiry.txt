@@ -1,0 +1,22 @@
+1. List of all airlines:
+Alaska
+American
+Delta
+JetBlue
+Southwest
+Spirit
+United
+   
+
+2. Airlines with a carrier delay greater than 10:
+Alaska
+American
+Delta
+JetBlue 
+Spirit 
+United
+
+3. Airlines with a carrier delay greater than 15 (threshold = 15):
+American
+JetBlue
+Spirit
